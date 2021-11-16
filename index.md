@@ -1,37 +1,30 @@
-## Welcome to GitHub Pages
+*A Guide to harden chromium-based browsers and tips to make them more secure.*
+<hr>
 
-You can use the [editor on GitHub](https://github.com/appukuttan66/chromium-hardening-guide/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+![Github release date](https://img.shields.io/github/release-date/appukuttan66/chromium-hardening-guide?style=flat-square)
+![GitHub last commit](https://img.shields.io/github/last-commit/appukuttan66/chromium-hardening-guide?style=flat-square)
+![GitHub deployments](https://img.shields.io/github/deployments/appukuttan66/chromium-hardening-guide/github-pages?style=flat-square)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+*This guide will give you tips on how to improve the security and harden Chromium-based browsers. While these work on any Chromium-based browser it is still important to use the Right one.*
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## A few good Chromium-based browsers.
 
-```markdown
-Syntax highlighted code block
+| Browser | Platform |
+| ------- | -------- |
+| [Bromite](https://bromite.org) | Android  |
+| [Brave](https://brave.com)  | Android, iOS, Windows, macOS, Linux |
+| [Ungoogled-Chromium](https://ungoogled-software.github.io/) | Android, Windows, macOS, Linux |
 
-# Header 1
-## Header 2
-### Header 3
+## Privacy features in `chrome://flags`
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/appukuttan66/chromium-hardening-guide/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+| Name | Id | Value | Platforms | Description |
+| --- | --- | --- | --- | --- |
+| Reduce User-Agent request header | `#reduce-user-agent` | `Enabled` | Mac, Windows, Linux, Chrome OS, Android | Reduce (formerly, "freeze") the amount of information availabfingerprinting-canvas-image-noiseer. |
+| `#fingerprinting-canvas-image-data-noise` | //To do
+| `#fingerprinting-client-rects-noise` | //To do
+| `#fingerprinting-canvas-measuretext-noise` | //To do
+| `#enable-webrtc-hide-local-ips-with-mdns` | //To do
+| `#disable-webgl` | //To do
+| `#enable-site-per-process` | //To do
+| `#strict-orgin-isolation` | //To do
